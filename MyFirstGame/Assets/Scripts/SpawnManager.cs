@@ -31,7 +31,7 @@ public class SpawnManager : MonoBehaviour
     // Parar la generacion
      public void StopSpawn()
     {
-
+        CancelInvoke("SpawnEnemy");
     }
 
 }
